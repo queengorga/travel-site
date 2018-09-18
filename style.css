@@ -68,6 +68,11 @@ body
     font-size: 25px;
 }
 
+.navbar a:hover
+{
+    opacity: .5;
+}
+
 .welcome h1
 {
     font-family: 'Merriweather', serif;
@@ -93,4 +98,77 @@ body
     z-index: 1;
     margin-top: 10px;
     margin-left: -85px;
+}
+
+.history 
+{
+    height: 110vh;
+    width: 100%;
+    background-color: ivory;
+}
+
+.history img
+{
+    width: 1050px;
+    height: 575px;
+    top: 50%;
+    left: 50%;
+    transform: translate(15%, 25%);
+    -webkit-transform:;
+    -moz-transform:;
+    -ms-transform:;
+    -o-transform:;
+}
+
+.history-container
+{
+    position: relative;
+}
+
+.text-box 
+{
+    position: absolute;
+    bottom: -25px;
+    right: 150px;
+    background-color: #800000;
+    color: white;
+    padding: 35px;
+}
+
+.text-box h1
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.text-box p
+{
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.text-box button
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    height: 45px;
+    width: 255px;
+    background: white;
+    border-radius: 40px;
+    border: none; 
+    color: #800000; 
+}
+
+.text-box button:hover
+{
+    background-color: #800000;
+    color: white;
+    border: 2px solid white;
+    transition: .55s ease-in-out;
+    -webkit-transition: .55s ease-in-out;
+    -moz-transition: .55s ease-in-out;
+    -ms-transition: .55s ease-in-out;
+    -o-transition: .55s ease-in-out;
 }
