@@ -190,15 +190,15 @@ body
 
 .attractions img 
 {
-    width: 950px;
-    height: 500px;
+    width: 875px;
+    height: 525px;
     top: 50%;
     left: 50%;
-    transform: translate(40%, 10%);
-    -webkit-transform: translate(40%, 10%);
-    -moz-transform: translate(40%, 10%);
-    -ms-transform: translate(40%, 10%);
-    -o-transform: translate(40%, 10%);
+    transform: translate(40%, 8%);
+    -webkit-transform: translate(40%, 8%);
+    -moz-transform: translate(40%, 8%);
+    -ms-transform: translate(40%, 8%);
+    -o-transform: translate(40%, 8%);
 }
 
 .attractions .container 
@@ -218,14 +218,14 @@ body
 
 .text-block h1 {
     font-family: 'Roboto', sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bolder;
 }
 
 .text-block p {
     font-family: 'Roboto', sans-serif;
     flex-wrap: wrap;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .text-block button {
@@ -238,6 +238,10 @@ body
     border-radius: 40px;
     border: none;
     color: #800000;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
 }
 
 .text-block button:hover {
@@ -257,4 +261,20 @@ body
     font-size: 50px; 
     text-align: center;
     padding-top: 65px;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: darkred;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
 }
