@@ -60,7 +60,6 @@ body
     display: inline;
     position: relative; 
     margin: 20px;
-    float: left;
     list-style-type: none;
     text-decoration: none;
     color: white;
@@ -74,30 +73,17 @@ body
     opacity: .5;
 }
 
-.travel-icon
-{ 
-    margin-right: 50px;
+.nav-link img
+{
+    vertical-align: bottom;
 }
 
-.travel-icon img
+.nav-link img:hover
 {
-    height: 65px;
-    width: 65px;
-    padding: 10px;
-    background: ivory;
-    opacity: 2.5;
-    border-radius: 35%;
-    -webkit-border-radius: 35%;
-    -moz-border-radius: 35%;
-    -ms-border-radius: 35%;
-    -o-border-radius: 35%;
+    background-image: url(img/colosseumbg.png);
+    color:gold;
 }
 
-.travel-icon img:hover
-{
-    background: gold;
-    opacity: 5.5;
-}
 
 .welcome h1
 {
@@ -264,10 +250,6 @@ body
     border-radius: 40px;
     border: none;
     color: #800000;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
 }
 
 .text-block button:hover {
