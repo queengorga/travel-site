@@ -271,7 +271,8 @@ body
     padding-top: 65px;
 }
 
-.dot {
+.dot 
+{
     cursor: pointer;
     height: 15px;
     width: 15px;
@@ -284,5 +285,11 @@ body
 
 .active,
 .dot:hover {
-    background-color: #717171;
+    background-color: ivory;
+    border: 2px solid darkred;
+    transition: .5s ease-in-out;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
 }
