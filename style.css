@@ -320,3 +320,45 @@ body
         opacity: 1
     }
 }
+
+/* Sites Section */
+
+.sites
+{
+    height: 110vh;
+    width: 100%;
+    display: flex;
+    padding: 150px;
+    background-image: url(img/pantheonbg.jpg);
+}
+
+.card 
+{
+    transition: 0.3s;
+    width: 350px;
+    height: 250px;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    background-color: white;
+}
+
+.site-card
+{
+    margin: 25px;
+    width: 350px;
+    height: 450px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+
+.site-card:hover 
+{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.container {
+    padding: 2px 16px;
+}
