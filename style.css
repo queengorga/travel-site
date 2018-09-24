@@ -323,24 +323,34 @@ body
 
 /* Sites Section */
 
+
 .sites
 {
-    height: 110vh;
+    height: 100vh;
     width: 100%;
-    display: flex;
-    padding: 150px;
     background-image: url(img/pantheonbg.jpg);
+}
+
+.sites h1
+{
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+    font-family: 'Merriweather', serif;
+    font-size: 50px;
+}
+
+.site-container
+{
+   display: inline-flex;
+   padding: 10px 150px;
+   margin: 0 auto;
 }
 
 .card 
 {
-    transition: 0.3s;
     width: 350px;
     height: 250px;
-    -webkit-transition: 0.3s;
-    -moz-transition: 0.3s;
-    -ms-transition: 0.3s;
-    -o-transition: 0.3s;
     background-color: white;
 }
 
@@ -348,7 +358,7 @@ body
 {
     margin: 25px;
     width: 350px;
-    height: 450px;
+    height: 475px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     background-color: white;
 }
@@ -356,9 +366,29 @@ body
 .site-card:hover 
 {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    margin-top: 1.5px;
+    transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
 }
 
 
-.container {
+.container 
+{
     padding: 2px 16px;
+}
+
+.container h4
+{
+    font-family: 'Merriweather', serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.container p 
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
 }
