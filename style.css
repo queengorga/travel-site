@@ -1,6 +1,8 @@
 * 
 {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body
@@ -398,7 +400,7 @@ body
 .social
 {
     width: 100%;
-    height: 125vh;
+    height: 110vh;
     margin-top: 20px;
     background-color: darkred;
 }
@@ -437,4 +439,43 @@ div.gallery img
 {
     width: 100%;
     height: 250px;
+}
+
+/* Footer */
+
+footer
+{
+    height: 45vh;
+    width:100%;
+    background: bisque;
+}
+
+.container-footer 
+{
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.container-footer img
+{
+    height: 125px;
+    width: auto;
+}
+
+.container-footer h4
+{
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+}
+
+.footer-social
+{
+    padding: 5px;
+}
+
+.footer-social img
+{
+    height: 40px;
+    width: auto;
 }
