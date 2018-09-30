@@ -288,6 +288,12 @@ body
     -o-transition: .55s ease-in-out;
 }
 
+.text-block a
+{
+    text-decoration: none;
+    color: inherit;
+}
+
 .attractions .title h1
 {
     font-family: 'Merriweather', serif;
@@ -670,7 +676,7 @@ li {
 
 #palaces
 {
-    height: 245vh;
+    height: 255vh;
     width: 100%;
     background-color: darkred;
     padding: 125px;
@@ -702,6 +708,46 @@ li {
 
 .palace p
 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: black;
+    padding: 25px;
+}
+
+/* Vatican Section */
+
+#vatican {
+    height: 250vh;
+    width: 100%;
+    background-color: bisque;
+    padding: 125px;
+}
+
+.vatican-container {
+    display: inline-block;
+
+}
+
+.vatican-site {
+    border: 1px solid black;
+    height: 32rem;
+    width: 80rem;
+    background-color: ivory;
+    margin-bottom: 30px;
+}
+
+.vatican-site img
+
+/* Add crossfading image of interior of the palace */
+    {
+    float: left;
+    height: 457px;
+    width: 550px;
+    padding: 15px;
+    margin: 15px;
+}
+
+.vatican-site p {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     color: black;
