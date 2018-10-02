@@ -795,3 +795,160 @@ li {
     color: black;
     padding: 25px;
 }
+
+/*Things To Do Page*/
+
+.things-container {
+    text-align: center;
+    max-width: 960px;
+    margin: auto;
+    padding: 0 1rem 0 1rem;
+}
+
+.things-wrap 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75vh;
+}
+
+.things-wrap img 
+{
+    width: 100%;
+    height: 75vh;
+}
+
+.things-navbar 
+{
+    height: 100vh;
+    width: 100vw;
+    margin-top: 20px;
+    margin-left: 60px;
+    position: absolute;
+    background: transparent;
+    color: white;
+    z-index: 1;
+}
+
+.things-navbar a,li 
+{
+    display: inline;
+    position: relative;
+    margin: 12px;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    font-family: 'Merriweather', serif;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.things-navbar a:hover {
+    opacity: .5;
+}
+
+.things-navlink img {
+    vertical-align: bottom;
+}
+
+.things-navlink img:hover {
+    background-image: url(img/colosseumbg.png);
+}
+
+.things-header h1 
+{
+    font-family: 'Merriweather', serif;
+    font-weight: bolder;
+    font-size: 3rem;
+    position: absolute;
+    background: transparent;
+    color: white;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    -webkit-transform: translate(-50%, -20%);
+    -moz-transform: translate(-50%, -20%);
+    -ms-transform: translate(-50%, -20%);
+    -o-transform: translate(-50%, -20%);
+    text-shadow: 1px 1px darkgray;
+}
+
+/*Intro Pantheon Section*/
+
+.pantheon 
+{
+    height: 170vh;
+    width: 100%;
+    background-color: ivory;
+}
+
+.pantheon-history 
+{
+    margin: 0 100px 0 100px;
+    top: 0;
+    left: 0;
+    transform:   translate(1%, 110%);
+    -webkit-transform:   translate(1%, 110%);
+    -moz-transform:   translate(1%, 110%);
+    -ms-transform:   translate(1%, 110%);
+    -o-transform:   translate(1%, 110%);
+    text-align: justify;
+}
+
+.pantheon-history h1
+{
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.pantheon-history p
+{
+    font-family: 'Merriweather', serif;
+    font-size: 15px;    
+}
+
+/* Rome History Section*/
+
+.rome-history
+{
+    height: 75vh;
+}
+
+.pantheon-left
+{
+    background-color: darkred;
+    height: 75vh;
+}
+
+.pantheon-right
+{
+    background-image: url(img/pantheon.jpg);
+    background-size: cover;
+    height: 75vh;
+}
+
+.pantheon-left p
+{
+    font-family: 'Merriweather', serif;
+    font-size: 15px;
+    padding: 10px;
+    margin: 0 50px 0 50px;
+    color: white;
+    text-align: justify;
+
+}
+
+.pantheon-left h1
+{
+    font-family: 'Merriweather', serif;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    padding-top: 55px;
+    padding-bottom: 20px;
+}
