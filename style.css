@@ -919,6 +919,8 @@ li {
     height: 75vh;
 }
 
+/*Pantheon Row*/
+
 .pantheon-left
 {
     background-color: darkred;
@@ -949,6 +951,109 @@ li {
     font-size: 30px;
     text-align: center;
     color: white;
+    padding-top: 55px;
+    padding-bottom: 20px;
+}
+
+/* Trevi Fountain Row*/
+
+.trevi-right
+{
+    background-color: ivory;
+    height: 75vh;
+}
+
+.trevi-left 
+{
+    background-image: url(img/trevi.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 75vh;
+}
+
+.trevi-right p 
+{
+    font-family: 'Merriweather', serif;
+    font-size: 15px;
+    padding: 10px;
+    margin: 0 50px 0 50px;
+    color: black;
+    text-align: justify;
+}
+
+.trevi-right h1 
+{
+    font-family: 'Merriweather', serif;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    padding-top: 55px;
+    padding-bottom: 20px;
+}
+
+/*Piazza Navona*/
+
+.navona-left {
+    background-color: darkred;
+    height: 75vh;
+}
+
+.navona-right {
+    background-image: url(img/piazza.jpg);
+    background-size: cover;
+    height: 75vh;
+}
+
+.navona-left p {
+    font-family: 'Merriweather', serif;
+    font-size: 15px;
+    padding: 10px;
+    margin: 0 50px 0 50px;
+    color: white;
+    text-align: justify;
+
+}
+
+.navona-left h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    padding-top: 55px;
+    padding-bottom: 20px;
+}
+
+/* The Colosseum*/
+
+.colosseum-right {
+    background-color: ivory;
+    height: 75vh;
+    margin-bottom: 30px;
+}
+
+.colosseum-left {
+    background-image: url(img/colosseum1.jpg);
+    background-position: center;
+    background-size: 800px 550px;
+    background-repeat: no-repeat;
+    height: 75vh;
+    margin-bottom: 30px;
+}
+
+.colosseum-right p {
+    font-family: 'Merriweather', serif;
+    font-size: 15px;
+    padding: 10px;
+    margin: 0 50px 0 50px;
+    color: black;
+    text-align: justify;
+}
+
+.colosseum-right h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 30px;
+    text-align: center;
+    color: black;
     padding-top: 55px;
     padding-bottom: 20px;
 }
