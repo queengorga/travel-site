@@ -1092,7 +1092,7 @@ li {
 }
 
 .plan-navbar {
-    height: 100vh;
+    height: 75vh;
     width: 100vw;
     margin-top: 20px;
     margin-left: 60px;
@@ -1138,9 +1138,137 @@ li {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -20%);
-    -webkit-transform: translate(-50%, -20%);
-    -moz-transform: translate(-50%, -20%);
-    -ms-transform: translate(-50%, -20%);
-    -o-transform: translate(-50%, -20%);
+    -webkit-transform:;
+    -moz-transform:;
+    -ms-transform:;
+    -o-transform:;
     text-shadow: 2px 2px black;
+}
+
+/* Plan Your Trip Navbar Section*/
+
+.container-nav
+{
+    background-color: darkred;
+    height: 45px; 
+}
+
+.trip-navbar
+{
+    top: 0;
+    left: 0;
+    transform:translate(0%,1205%);
+    -webkit-transform:;
+    -moz-transform:;
+    -ms-transform:;
+    -o-transform:;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.trip-nav li
+{
+    font-family: 'Merriweather', serif;
+    font-size: 25px;
+    color: white;
+    margin: 30px;
+    cursor: pointer;
+}
+
+.trip-nav li:hover
+{
+   opacity: .75;
+}
+
+.trip-nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.trip-nav a:visited
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+/*Places To Stay*/
+
+.stay {
+    margin-top: 550px;
+    height: 200vh;
+    width: 100%;
+    background-color: ivory;
+}
+
+.stay h2 {
+    text-align: center;
+    padding: 50px;
+    margin-top: 100px;
+    font-family: 'Merriweather', serif;
+    font-size: 50px;
+}
+
+.stay h3 {
+    text-align: center;
+    padding: 10px;
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+}
+
+.stay-container {
+    display: inline-flex;
+    padding: 10px 150px;
+    margin: 0 auto;
+}
+
+.card-stay {
+    width: 350px;
+    height: 250px;
+    background-color: white;
+}
+
+.card-stay a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.card-stay a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+.stay-card {
+    margin: 25px;
+    width: 350px;
+    height: 475px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+
+.stay-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    margin-top: .5px;
+    transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+}
+
+.stay-details {
+    padding: 2px 16px;
+}
+
+.stay-details h4 {
+    font-family: 'Merriweather', serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.stay-details p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-align: center;
 }
