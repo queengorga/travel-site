@@ -1202,7 +1202,7 @@ li {
 
 .stay h2 {
     text-align: center;
-    padding: 50px;
+    padding: 50px 80px 0 80px;
     margin-top: 100px;
     font-family: 'Merriweather', serif;
     font-size: 50px;
@@ -1210,14 +1210,14 @@ li {
 
 .stay h3 {
     text-align: center;
-    padding: 10px;
+    padding: 10px 100px 0 100px;
     font-family: 'Merriweather', serif;
     font-size: 18px;
 }
 
 .stay-container {
     display: inline-flex;
-    padding: 10px 150px;
+    padding: 10px 70px;
     margin: 0 auto;
 }
 
@@ -1271,4 +1271,228 @@ li {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     text-align: center;
+}
+
+/*Tours Section*/
+
+#tours
+{
+    background-color: darkred;
+    height: 165vh;
+}
+#tours .tours-container {
+    width: 100%;
+    height: 100vh;
+    margin-top: 100px;
+}
+
+.title-tours h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 50px;
+    color: white;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.tours-row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 5px 10px 0 0px;
+    padding: 20px;
+}
+
+.toursCard {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-155%, -12%);
+    width: 450px;
+    height: 400px;
+    margin: 5px 5px 5px 8px;
+    padding: 2px;
+    border-radius: 8px;
+    overflow: hidden;
+    clear: both;
+    -webkit-transform: translate(-155%, -12%);
+    -moz-transform: translate(-155%, -12%);
+    -ms-transform: translate(-155%, -12%);
+    -o-transform: translate(-155%, -12%);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.toursCard .toursImage,
+.toursCard .toursDetails {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    box-sizing: border-box;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+.toursCard .toursImage {
+    top: 0;
+    left: 0;
+}
+
+.toursCard:hover .toursImage {
+    top: -100%;
+    left: 0%;
+}
+
+.toursCard .toursImage img {
+    width: 100%;
+    height: 100%;
+}
+
+.toursCard .toursDetails {
+    background: white;
+    top: 100%;
+    left: 0%;
+    padding: 40px 10px 60px 20px;
+}
+
+.toursCard:hover .toursDetails {
+    top: 0%;
+    left: 0%;
+}
+
+.toursCard .toursDetails h2 {
+    color: black;
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Merriweather', serif;
+}
+
+.toursCard .toursDetails h3 {
+    color: black;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px;
+    font-family: 'Merriweather', serif;
+}
+
+.toursCard .toursDetails p {
+    margin: 8px 0 10px 2px;
+    color: black;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+}
+
+
+.toursCard .toursDetails button {
+    width: 110px;
+    height: 40px;
+    margin: 8px;
+    border: .5px solid darkred;
+    color: white;
+    background: darkred;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.toursCard .toursDetails button:hover {
+    background: white;
+    color: black;
+    border: 2px solid darkred;
+    font-weight: bold;
+    transition: .5s ease-in-out;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+}
+
+.toursCard .toursDetails a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+.toursCard .toursDetails a:visited {
+    color: inherit;
+    text-decoration: none;
+}
+
+/*Transportation Section*/
+.transpo {
+    width: 100%;
+    height: 85vh;
+    background-color: bisque;
+}
+
+.transpo-title h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    padding: 50px;
+}
+
+div.public-transport
+{
+    padding: 20px;
+}
+
+div.public-transport 
+{
+    display: inline-flex;
+    margin: 5px;
+    border: 2px solid white;
+    width: 425px;
+    height: 335px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-155%, -5%);
+    -webkit-transform: translate(-155%, -5%);
+    -moz-transform: translate(-155%, -5%);
+    -ms-transform: translate(-155%, -5%);
+    -o-transform: translate(-155%, -5%);
+    position: relative;
+}
+
+div.public-transport img {
+    position:absolute;
+    width:50px;
+    height: 50px;
+}
+
+div.public-transport h2
+{
+    margin-left: 80px;
+    margin-top: 12px;
+}
+
+div.public-transport p
+{
+    margin-top: 70px;
+    float: left;
+    margin-left:-155px;
+    padding: 20px;
+}
+
+div.public-transport:hover
+{
+    background: white;
+    transition: .5s ease-in-out;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
 }
