@@ -1496,3 +1496,42 @@ div.public-transport:hover
     -ms-transition: .5s ease-in-out;
     -o-transition: .5s ease-in-out;
 }
+
+/*Drink & Dine Section*/
+
+.drinkDine
+{
+    height: 100vh;
+    width: 100%;
+    background-color: darkred;
+}
+
+.dine-title h1
+{
+    color: white;
+    font-family: 'Merriweather', serif;
+    font-size: 30px;
+    text-align: center;
+    padding: 40px;
+}
+
+.restaurants-container
+{
+    border: 2px solid ivory;
+    background-color: ivory;
+    height: 250px;
+    width: 850px;
+    top: 0;
+    left: 0;
+    transform: translate(40%,10%);
+    -webkit-transform: translate(40%,10%);
+    -moz-transform: translate(40%,10%);
+    -ms-transform: translate(40%,10%);
+    -o-transform: translate(40%,10%);
+}
+
+.restaurants-container img
+{
+    height: 250px;
+    width: 350px;
+}   
