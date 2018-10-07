@@ -1150,18 +1150,18 @@ li {
 .container-nav
 {
     background-color: darkred;
-    height: 45px; 
+    height: 40px; 
 }
 
 .trip-navbar
 {
     top: 0;
     left: 0;
-    transform:translate(0%,1205%);
-    -webkit-transform:translate(0%,1205%);
-    -moz-transform:translate(0%,1205%);
-    -ms-transform:translate(0%,1205%);
-    -o-transform:translate(0%,1205%);
+    transform:translate(0%,1350%);
+    -webkit-transform:translate(0%,1350%);
+    -moz-transform:translate(0%,1350%);
+    -ms-transform:translate(0%,1350%);
+    -o-transform:translate(0%,1350%);
     text-align: center;
     vertical-align: middle;
 }
@@ -1175,9 +1175,9 @@ li {
     cursor: pointer;
 }
 
-.trip-nav li:hover
+.trip-nav a:hover
 {
-   opacity: .75;
+    opacity: .75;
 }
 
 .trip-nav a {
@@ -1288,7 +1288,7 @@ li {
 
 .title-tours h2 {
     font-family: 'Merriweather', serif;
-    font-size: 50px;
+    font-size: 40px;
     color: white;
     padding-top: 50px;
     text-align: center;
@@ -1501,7 +1501,7 @@ div.public-transport:hover
 
 .drinkDine
 {
-    height: 100vh;
+    height: 175vh;
     width: 100%;
     background-color: darkred;
 }
@@ -1512,26 +1512,92 @@ div.public-transport:hover
     font-family: 'Merriweather', serif;
     font-size: 30px;
     text-align: center;
-    padding: 40px;
+    padding: 35px 35px;
 }
 
 .restaurants-container
 {
-    border: 2px solid ivory;
+    column-count: 2;
+    border: 2px solid transparent;
     background-color: ivory;
-    height: 250px;
-    width: 850px;
+    height: 325px;
+    width: 1000px;
     top: 0;
     left: 0;
-    transform: translate(40%,10%);
-    -webkit-transform: translate(40%,10%);
-    -moz-transform: translate(40%,10%);
-    -ms-transform: translate(40%,10%);
-    -o-transform: translate(40%,10%);
+    transform: translate(25%,5%);
+    -webkit-transform:;
+    -moz-transform:;
+    -ms-transform:;
+    -o-transform:;
+    margin: 20px;
 }
 
 .restaurants-container img
 {
-    height: 250px;
-    width: 350px;
+    margin: 0;
+    height: 321px;
+    width: 750px;
 }   
+
+.restaurants-container h1
+{
+    font-family: 'Merriweather',serif;
+    font-size: 25px;
+    margin: 15px;
+    padding-top: 10px;
+}
+
+.restaurants-container h3
+{
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    margin: 15px;
+}
+
+.restaurants-container p
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin: 15px;
+}
+
+.restaurants-container:hover 
+{
+    box-shadow: 0 8px 16px 0px white;
+
+    transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+}
+
+.restaurants-container button {
+    width: 100px;
+    height: 30px;
+    margin: 8px;
+    border: .5px solid darkred;
+    color: white;
+    background: darkred;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.restaurants-container button:hover {
+    background: white;
+    color: black;
+    border: 2px solid darkred;
+    font-weight: bold;
+    transition: .5s ease-in-out;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+}
