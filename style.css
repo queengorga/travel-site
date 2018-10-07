@@ -1525,10 +1525,10 @@ div.public-transport:hover
     top: 0;
     left: 0;
     transform: translate(25%,5%);
-    -webkit-transform:;
-    -moz-transform:;
-    -ms-transform:;
-    -o-transform:;
+    -webkit-transform: translate(25%,5%);
+    -moz-transform: translate(25%,5%);
+    -ms-transform: translate(25%,5%);
+    -o-transform: translate(25%,5%);
     margin: 20px;
 }
 
