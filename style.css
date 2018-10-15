@@ -491,10 +491,15 @@ div.gallery
     -o-transform: translate(45%,-5%);
 }
 
-div.gallery:hover 
+div.gallery:hover
 {
-
-    border: 1px solid ivory;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition: .5s ease-in-out;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
 }
 
 div.gallery img 
