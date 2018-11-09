@@ -1199,7 +1199,7 @@ li {
 
 .stay {
     margin-top: 550px;
-    height: 200vh;
+    height: 190vh;
     width: 100%;
     background-color: ivory;
 }
@@ -1282,12 +1282,12 @@ li {
 #tours
 {
     background-color: darkred;
-    height: 165vh;
+    height: 155vh;
 }
 #tours .tours-container {
     width: 100%;
     height: 100vh;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 .title-tours h2 {
@@ -1437,7 +1437,7 @@ li {
 /*Transportation Section*/
 .transpo {
     width: 100%;
-    height: 85vh;
+    height: 80vh;
     background-color: bisque;
 }
 
@@ -1505,7 +1505,7 @@ div.public-transport:hover
 
 .drinkDine
 {
-    height: 175vh;
+    height: 170vh;
     width: 100%;
     background-color: darkred;
 }
@@ -1514,9 +1514,9 @@ div.public-transport:hover
 {
     color: white;
     font-family: 'Merriweather', serif;
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
-    padding: 35px 35px;
+    padding: 50px 35px 0 0;
 }
 
 .restaurants-container
@@ -1540,7 +1540,7 @@ div.public-transport:hover
 {
     margin: 0;
     height: 321px;
-    width: 750px;
+    width: 500px;
 }   
 
 .restaurants-container h1
