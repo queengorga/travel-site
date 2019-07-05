@@ -899,10 +899,10 @@ li {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -20%);
-    -webkit-transform:;
-    -moz-transform:;
-    -ms-transform:;
-    -o-transform:;
+    -webkit-transform: translate(-50%, -20%);
+    -moz-transform: translate(-50%, -20%);
+    -ms-transform: translate(-50%, -20%);
+    -o-transform: translate(-50%, -20%);
     text-shadow: 1px 1px darkgray;
 }
 
