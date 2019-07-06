@@ -654,17 +654,17 @@ li {
     height: 375px;
     top: 50%;
     left: 50%;
-    transform: translate(50%, 195%);
-    -webkit-transform: translate(50%, 195%);
-    -moz-transform: translate(50%, 195%);
-    -ms-transform: translate(50%, 195%);
-    -o-transform: translate(50%, 195%);
+    transform: translate(50%, 203%);
+    -webkit-transform: translate(50%, 203%);
+    -moz-transform: translate(50%, 203%);
+    -ms-transform: translate(50%, 203%);
+    -o-transform: translate(50%, 203%);
     padding: 2px;
     filter: brightness(80%);
     -webkit-filter: brightness(80%);
 }
 
-.nav-image a:hover {
+.nav-image li:hover {
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
     transition: .5s ease-in-out;
@@ -687,11 +687,11 @@ li {
     font-weight: bolder;
     top: 50%;
     left: 50%;
-    transform: translate(50%, 725%);
-    -webkit-transform: translate(50%, 725%);
-    -moz-transform: translate(50%, 725%);
-    -ms-transform: translate(50%, 725%);
-    -o-transform: translate(50%, 725%);
+    transform: translate(50%, 750%);
+    -webkit-transform: translate(50%, 750%);
+    -moz-transform: translate(50%, 750%);
+    -ms-transform: translate(50%, 750%);
+    -o-transform: translate(50%, 750%);
     z-index: 1;
     text-align: center;
     text-shadow: 1px 1px darkgray;
