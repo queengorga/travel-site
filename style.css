@@ -1199,20 +1199,21 @@ li {
 .container-nav
 {
     background-color: darkred;
-    height: 40px; 
+    height: 4.10vh; 
 }
 
 .trip-navbar
 {
     top: 0;
     left: 0;
-    transform:translate(0%,1755%);
-    -webkit-transform:translate(0%,1755%);
-    -moz-transform:translate(0%,1755%);
-    -ms-transform:translate(0%,1755%);
-    -o-transform:translate(0%,1755%);
+    transform:translate(0%,1830%);
+    -webkit-transform:translate(0%,1830%);
+    -moz-transform:translate(0%,1830%);
+    -ms-transform:translate(0%,1830%);
+    -o-transform:translate(0%,1830%);
     text-align: center;
     vertical-align: middle;
+    z-index: 1;
 }
 
 .trip-nav li
@@ -1226,7 +1227,7 @@ li {
 
 .trip-nav a:hover
 {
-    opacity: .75;
+    opacity: .50;
 }
 
 .trip-nav a {
@@ -1574,11 +1575,11 @@ div.public-transport:hover
     width: 1000px;
     top: 0;
     left: 0;
-    transform: translate(45%,5%);
-    -webkit-transform: translate(45%,5%);
-    -moz-transform: translate(45%,5%);
-    -ms-transform: translate(45%,5%);
-    -o-transform: translate(45%,5%);
+    transform: translate(42%,5%);
+    -webkit-transform: translate(42%,5%);
+    -moz-transform: translate(42%,5%);
+    -ms-transform: translate(42%,5%);
+    -o-transform: translate(42%,5%);
     margin: 20px;
 }
 
