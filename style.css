@@ -499,7 +499,7 @@ body
   margin: 2rem 2rem 0 15rem;
 }
 
-.gallery:hover
+.gallery-img:hover
 {
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
