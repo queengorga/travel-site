@@ -521,7 +521,7 @@ body
 
 footer
 {
-    height: 35vh;
+    height: 42vh;
     width:100%;
     background: ivory;
 }
@@ -543,6 +543,7 @@ footer
 {
     font-family: 'Merriweather', serif;
     font-size: 20px;
+    color: black;
 }
 
 .footer-social
@@ -554,6 +555,32 @@ footer
 {
     height: 40px;
     width: auto;
+}
+
+.footer-social h5 {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 18px;
+}
+.top {
+    background-color: blanchedalmond;
+}
+
+.top a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.top p {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    color: darkred;
+    padding: 10px;
+}
+
+.top hr {
+    color: darkred;
 }
 
 /* Places To Go Page*/
