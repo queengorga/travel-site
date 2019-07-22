@@ -770,7 +770,7 @@ li {
     color: black;
     text-align: justify;
     padding: 25px;
-    margin: 0 10px;
+
 }
 
 .palace a {
@@ -782,7 +782,7 @@ li {
 /* Vatican Section */
 
 #vatican {
-    height: 195vh;
+    height: 210vh;
     width: 100%;
     background-color: bisque;
     padding: 125px;
@@ -795,7 +795,7 @@ li {
 
 .vatican-site {
     border: 1px solid black;
-    height: 32rem;
+    height: 35rem;
     width: 80rem;
     background-color: ivory;
     margin-bottom: 30px;
@@ -806,7 +806,7 @@ li {
 /* Add crossfading image of interior of the palace */
     {
     float: left;
-    height: 457px;
+    height: 525px;
     width: 550px;
     padding: 15px;
     margin: 15px;
@@ -817,6 +817,12 @@ li {
     font-size: 20px;
     color: black;
     padding: 25px;
+}
+
+.vatican-site a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
 }
 
 /* Museums Section */
