@@ -829,7 +829,7 @@ li {
 
 #museum 
 {
-    height: 195vh;
+    height: 210vh;
     width: 100%;
     background-color: darkred;
     padding: 125px;
@@ -844,7 +844,7 @@ li {
 .museum-site 
 {
     border: 1px solid black;
-    height: 32rem;
+    height: 35rem;
     width: 80rem;
     background-color: ivory;
     margin-bottom: 30px;
@@ -853,7 +853,7 @@ li {
 .museum-site img
 {
     float: left;
-    height: 457px;
+    height: 525px;
     width: 550px;
     padding: 15px;
     margin: 15px;
@@ -865,6 +865,12 @@ li {
     font-size: 20px;
     color: black;
     padding: 25px;
+}
+
+.museum-site a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
 }
 
 /*Things To Do Page*/
