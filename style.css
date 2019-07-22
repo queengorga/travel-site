@@ -733,7 +733,7 @@ li {
 
 #palaces
 {
-    height: 195vh;
+    height: 210vh;
     width: 100%;
     background-color: darkred;
     padding: 125px;
@@ -748,7 +748,7 @@ li {
 .palace
 {
     border: 1px solid ivory;
-    height: 32rem;
+    height: 35rem;
     width: 80rem;
     background-color: ivory;
     margin-bottom: 30px;
@@ -757,7 +757,7 @@ li {
 .palace img /* Add crossfading image of interior of the palace */
 {
     float: left;
-    height: 457px;
+    height: 525px;
     width: 550px;
     padding: 15px;
     margin: 15px;
@@ -771,6 +771,12 @@ li {
     text-align: justify;
     padding: 25px;
     margin: 0 10px;
+}
+
+.palace a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 /* Vatican Section */
