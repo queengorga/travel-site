@@ -957,7 +957,7 @@ li {
 
 .pantheon 
 {
-    height: 145vh;
+    height: 160vh;
     width: 100%;
     background-color: ivory;
 }
@@ -967,11 +967,11 @@ li {
     margin: 0 100px 0 100px;
     top: 0;
     left: 0;
-    transform:   translate(1%, 170%);
-    -webkit-transform:   translate(1%, 170%);
-    -moz-transform:   translate(1%, 170%);
-    -ms-transform:   translate(1%, 170%);
-    -o-transform:   translate(1%, 170%);
+    transform:   translate(0%, 120%);
+    -webkit-transform:   translate(0%, 120%);
+    -moz-transform:   translate(0%, 120%);
+    -ms-transform:   translate(0%, 120%);
+    -o-transform:   translate(0%, 120%);
     text-align: justify;
 }
 
@@ -986,7 +986,7 @@ li {
 .pantheon-history p
 {
     font-family: 'Merriweather', serif;
-    font-size: 15px;    
+    font-size: 18px;    
 }
 
 /* Rome History Section*/
