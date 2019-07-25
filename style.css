@@ -565,10 +565,13 @@ footer
     background-color: blanchedalmond;
 }
 
-.top a {
+.top a,
+.top a:visited {
     text-decoration: none;
-    color: inherit;
-}
+    color: darkred;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+} 
 
 .top p {
     text-align: center;
